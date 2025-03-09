@@ -8,6 +8,7 @@ interface Table {
   _id: string;
   name: string;
   columns: Array<{ name: string; type: string }>;
+  customColumns?: Array<{ name: string; type: string }>; 
 }
 
 interface TableListProps {
