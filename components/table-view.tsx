@@ -25,7 +25,7 @@ interface TableViewProps {
     _id: string;
     name: string;
     columns: Column[];
-    customColumns: Column[];
+    customColumns?: Column[];
   };
   onBack: () => void;
   onUpdate: () => void;
